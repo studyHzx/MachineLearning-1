@@ -1,0 +1,19 @@
+Machine Learning Specialization cheatsheet
+==========================================
+
+1. Installed anaconda
+2. Created virtualenv dato-env (C:\Users\Room2\Anaconda2\envs\dato-env)
+3. activate dato-env (to activate this virtualenv)
+3. installed graphlab create in this virtualenv following instructions at https://dato.com/download/install-graphlab-create-command-line.html
+4. Graphlab Create license details (free for Coursera students and valid until 7/31/2016):
+	Registered email address: umenon@acm.org
+	Product key: C574-1D07-D623-49F3-516A-C414-58F9-E34A
+5. Launch ipython notebook pointing to my ML dir by doing:
+	ipython notebook --notebook-dir="C:\Users\Room2\Documents\Machine Learning Specialization"
+6. Created a shortcut icon on desktop with above called "Ipython Notebook ML Specialization". Use this to launch 
+
+Notebook Tricks
+================
+graphlab.canvas.set_target('ipynb') #this will plot the graph in the notebook itself and not in a separate tab
+%matplotlib inline  #does th same thing for matplotlib plots
+
